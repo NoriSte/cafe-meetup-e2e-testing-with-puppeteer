@@ -1,0 +1,29 @@
+{
+  "name": "grusp-talk-e2e-testing-with-puppeteer",
+  "version": "1.0.0",
+  "description": "A project built for a PUGMI meetup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start:talk": "open -a 'Google Chrome' https://slides.com/noriste/e2e-testing-talk-grusp/edit && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-1.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-2.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-3.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-4.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-5_ooade_vuex-examples_tree_simple-todo/index.html"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoriSte/grusp-talk-e2e-testing-with-puppeteer.git"
+  },
+  "author": "Stefano Magni (@NoriSte)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoriSte/grusp-talk-e2e-testing-with-puppeteer/issues"
+  },
+  "homepage": "https://github.com/NoriSte/grusp-talk-e2e-testing-with-puppeteer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "jest-puppeteer": "^3.3.1",
+    "puppeteer": "^1.6.1"
+  }
+}

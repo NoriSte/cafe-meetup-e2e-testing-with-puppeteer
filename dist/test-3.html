@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+
+  <title>PUGMI E2E tests : test 3</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .fadeout {
+      animation: fadeout-animation 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+    @keyframes fadeout-animation {
+    from {
+      opacity: 1;
+      }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">PUG MI E2E tests meetup: test 3</h1>
+      <p>This template comes from Bootstrap. Your goal it to test that the button at the end of the page brings the user to the next page.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>PHP User Group Milano</h2>
+        <p>An amazing community that organizes php-related Meetups, it always looks for volunteers, would you like to be part of the team?</p>
+        <p><a class="btn btn-secondary" href="http://milano.grusp.org" role="button">PUGMI site &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Past events</h2>
+        <p>Take a look at what PUGMI organized till today.</p>
+        <p><a class="btn btn-secondary" href="https://www.meetup.com/it-IT/MilanoPHP/events/past/" role="button">View them &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Stefano Magni</h2>
+        <p>A frontender :)</p>
+        <p><a class="btn btn-secondary" href="https://twitter.com/noriste" role="button">Twitter &raquo;</a></p>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h2>PHP User Group Milano</h2>
+        <p>An amazing community that organizes php-related Meetups, it always looks for volunteers, would you like to be part of the team?</p>
+        <p><a class="btn btn-secondary" href="http://milano.grusp.org" role="button">PUGMI site &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Past events</h2>
+        <p>Take a look at what PUGMI organized till today.</p>
+        <p><a class="btn btn-secondary" href="https://www.meetup.com/it-IT/MilanoPHP/events/past/" role="button">View them &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Stefano Magni</h2>
+        <p>A frontender :)</p>
+        <p><a class="btn btn-secondary" href="https://twitter.com/noriste" role="button">Twitter &raquo;</a></p>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h2>PHP User Group Milano</h2>
+        <p>An amazing community that organizes php-related Meetups, it always looks for volunteers, would you like to be part of the team?</p>
+        <p><a class="btn btn-secondary" href="http://milano.grusp.org" role="button">PUGMI site &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Past events</h2>
+        <p>Take a look at what PUGMI organized till today.</p>
+        <p><a class="btn btn-secondary" href="https://www.meetup.com/it-IT/MilanoPHP/events/past/" role="button">View them &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Stefano Magni</h2>
+        <p>A frontender :)</p>
+        <p><a class="btn btn-secondary" href="https://twitter.com/noriste" role="button">Twitter &raquo;</a></p>
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="jumbotron">
+      <div class="container">
+        <p>Click the following button.</p>
+        <p><a class="btn btn-primary btn-lg" href="landing.html" role="button" data-test="button" >Go to the next page &raquo;</a></p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <footer class="fixed-bottom" style="background-color: rgba(0, 0, 0, 0.5);" id="cookie-footer">
+      <div class="container">
+        <div class="navbar-inner navbar-content-center">
+          <br><br>
+          <br><br>
+          <p class="text-muted credit" style="color:white!important;">
+            I'm the usual cookie footer. <button data-test="cookie-footer-acceptance" onclick="javascript:document.getElementById('cookie-footer').classList.add('fadeout');">Click here</button> to accept everything.
+          </p>
+          <br><br>
+          <br><br>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div> <!-- /container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://v4-alpha.getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+  </html>
