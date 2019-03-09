@@ -1,14 +1,14 @@
-## grusp-talk-e2e-testing-with-puppeteer
-The reference repo of a talk for PUG about browser automation (both for E2E testing and for web scraping) with Puppeteer. Talk level: basic.
+## cafe-meetup-e2e-testing-with-puppeteer
+The reference repo of a talk for CaFE about browser automation (both for E2E testing and for web scraping) with Puppeteer. Talk level: basic.
 
 # E2E testing and browser scraping with Puppeteer
-## A 2018 talk for PUG hosted in TAG (Milan)
+## A 2019 meetup for CaFE hosted in GDS Communication
 
 ### Links
 
-- [Slides](https://slides.com/noriste/e2e-testing-talk-grusp)
-- [PUG Milano (PHP User Group)](https://www.meetup.com/it-IT/MilanoPHP/)
-- [Meetup](https://www.meetup.com/it-IT/MilanoPHP/events/256407565/)
+- [Slides](https://slides.com/noriste/e2e-testing-workshop-cafe)
+- [CaFE (Como and Front End)](https://www.meetup.com/it-IT/Como-and-Frontend-CaFE/)
+- [Meetup](https://www.meetup.com/it-IT/Como-and-Frontend-CaFE/events/259556783/)
 - [Puppeteer API](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md)
 
 ### Installation instructions
