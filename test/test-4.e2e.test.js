@@ -41,6 +41,6 @@ describe(`Test 4`, () => {
     await page.click('[data-test="button"]');
 
     // check for a specific content is a good way to be 100% sure that the page is been loaded
-    await expect(page).toMatch('Hello from PUG MI');
+    await expect(page).toMatch('Hello from CaFE');
   }, 5000);
 });
