@@ -20,10 +20,10 @@ describe(`Test 5`, () => {
   const itemSelector = '#app li';
   const removeItemSelector = '#app li button';
   const todos = [
-    'Subscribe to the PUGMI meetup',
-    'Attend the PUGMI meetup',
+    'Subscribe to the CaFE meetup',
+    'Attend the CaFE meetup',
     'Pass this test',
-    'Join the PUGMI volunteers'
+    'Join the CaFE volunteers'
   ];
 
   const addTodo = async (todo) => {
@@ -66,6 +66,6 @@ describe(`Test 5`, () => {
 
   test(`Check the remaining todos directly from the store`, async () => {
     const state = await page.evaluate(() => window.vueInstance.$store.state.todos);
-    expect(state.map(item => item.text)).toEqual(['Pass this test', 'Join the PUGMI volunteers']);
+    expect(state.map(item => item.text)).toEqual(['Pass this test', 'Join the CaFE volunteers']);
   }, 10000);
 });

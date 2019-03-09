@@ -1,25 +1,25 @@
 {
-  "name": "grusp-talk-e2e-testing-with-puppeteer",
+  "name": "cafe-meetup-e2e-testing-with-puppeteer",
   "version": "1.0.0",
-  "description": "A project built for a PUGMI meetup",
+  "description": "A project built for a CaFE meetup",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start:talk": "open -a 'Google Chrome' https://slides.com/noriste/e2e-testing-talk-grusp/edit && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-1.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-2.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-3.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-4.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/grusp-talk-e2e-testing-with-puppeteer/dist/test-5_ooade_vuex-examples_tree_simple-todo/index.html"
+    "start:talk": "open -a 'Google Chrome' https://slides.com/noriste/e2e-testing-workshop-cafe/edit && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/cafe-meetup-e2e-testing-with-puppeteer/dist/test-1.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/cafe-meetup-e2e-testing-with-puppeteer/dist/test-2.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/cafe-meetup-e2e-testing-with-puppeteer/dist/test-3.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/cafe-meetup-e2e-testing-with-puppeteer/dist/test-4.html && open -a 'Google Chrome' file:///Users/NoriSte/Sites/noriste/cafe-meetup-e2e-testing-with-puppeteer/dist/test-5_ooade_vuex-examples_tree_simple-todo/index.html"
   },
   "jest": {
     "preset": "jest-puppeteer"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NoriSte/grusp-talk-e2e-testing-with-puppeteer.git"
+    "url": "git+https://github.com/NoriSte/cafe-meetup-e2e-testing-with-puppeteer.git"
   },
   "author": "Stefano Magni (@NoriSte)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NoriSte/grusp-talk-e2e-testing-with-puppeteer/issues"
+    "url": "https://github.com/NoriSte/cafe-meetup-e2e-testing-with-puppeteer/issues"
   },
-  "homepage": "https://github.com/NoriSte/grusp-talk-e2e-testing-with-puppeteer#readme",
+  "homepage": "https://github.com/NoriSte/cafe-meetup-e2e-testing-with-puppeteer#readme",
   "dependencies": {},
   "devDependencies": {
     "jest": "^23.4.2",
